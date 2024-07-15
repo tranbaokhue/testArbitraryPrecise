@@ -1,6 +1,6 @@
 # testArbitraryPrecise
 
-As a part of a project on improving the R package `CompQuadForm` with unlimited precision, this package contains simple codes to make sure we can do all the necessary calculations with arbitrary precision before implementing the libraries to the orginal package. Specifically, after trying out and looking at various libraries and packages for arbitrary precision, we think either the MPFR library (original for C, with available C++ wrapper mpreal) or the Boost/Multiprecision (C++ library) will be most suitable for our project. 
+This package contains simple codes to make sure all the necessary calculations work with arbitrary precision before implementing the libraries to `CompQuadForm`. Specifically, after trying out and looking at various libraries and packages for arbitrary precision, we think either the MPFR library (original for C, with available C++ wrapper mpreal) or the Boost/Multiprecision (C++ library) will be most suitable for our project. 
 
 ***
 
