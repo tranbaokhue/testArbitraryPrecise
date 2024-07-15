@@ -1,2 +1,2 @@
 # testArbitraryPrecise
-This is a demo package to test interfacing C/C++ with R in a package.
+This is a testing package to see how to interface C/C++ with R in a package with the hope of improving the existing `CompQuadForm` package on CRAN with unlimited precision.
