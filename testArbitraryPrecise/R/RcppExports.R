@@ -5,6 +5,10 @@ BoostExp100 <- function(x) {
     .Call(`_testArbitraryPrecise_BoostExp100`, x)
 }
 
+mpfrExp100 <- function(x) {
+    .Call(`_testArbitraryPrecise_mpfrExp100`, x)
+}
+
 rcpp_hello_world <- function() {
     .Call(`_testArbitraryPrecise_rcpp_hello_world`)
 }

@@ -21,6 +21,17 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// mpfrExp100
+std::string mpfrExp100(double x);
+RcppExport SEXP _testArbitraryPrecise_mpfrExp100(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< double >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(mpfrExp100(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // rcpp_hello_world
 List rcpp_hello_world();
 RcppExport SEXP _testArbitraryPrecise_rcpp_hello_world() {
@@ -34,6 +45,7 @@ END_RCPP
 
 static const R_CallMethodDef CallEntries[] = {
     {"_testArbitraryPrecise_BoostExp100", (DL_FUNC) &_testArbitraryPrecise_BoostExp100, 1},
+    {"_testArbitraryPrecise_mpfrExp100", (DL_FUNC) &_testArbitraryPrecise_mpfrExp100, 1},
     {"_testArbitraryPrecise_rcpp_hello_world", (DL_FUNC) &_testArbitraryPrecise_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
