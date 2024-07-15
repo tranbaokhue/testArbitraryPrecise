@@ -1,12 +1,11 @@
 Package: testArbitraryPrecise
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Testing Basic Functions Used in Finding Distribution Function of Quadratic Forms in Normal Variables
 Version: 1.0
 Date: 2024-07-15
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or
-        more full sentences.
+Author: Bao Khue Tran
+Maintainer: Bao Khue Tran <tran3@kenyon.edu>
+Description: Testing all functions and operations needed with arbitrary precision before implementation on CompQuadForm.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.12)
 LinkingTo: Rcpp
